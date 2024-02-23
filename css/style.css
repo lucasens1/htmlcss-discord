@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: burlywood;
+}
+/* Header */
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: #add8e6;
+    display: flex; 
+}
+
+/* Nav con spazio diviso */
+.nav{
+    margin: 20px 20%;
+    width: 100%;
+    height: 40px;
+    background-color: #daa520;
+    display: flex;
+}
+
+.links,
+.logo,
+.login {
+    border: 1px dashed black;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.links{
+    width: 50%;
+    text-align: center;
+}
+
+.logo{
+    width: 25%;
+    text-align: left;
+}
+
+.login{
+    width: 25%;
+    text-align: right;
+}
+/* /Nav */
+/* /Header */
+
+/* Adv */
+
+.adv{
+    width: 100%;
+    height: 300px;
+    background-color: #00008b;
+    display: flex;
+    justify-content: center;
+}
+
+.spacead{
+    margin: 30px 25%;
+    width: 100%;
+    height: 240px;
+    background-color: #ee82ee;
+    border: 1px dashed black;
+}
+
+/* /Adv */
+
+/* Sezione Left to right */
+
+.section-ltor{
+    height: 400px;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+
+.leftoright{
+    margin: 20px 20%;
+    width: 100%;
+    height: 360px;
+    background-color: chocolate;
+    display: flex;
+}
+/* Creo classi universali riutilizzabili a seconda della direction del row */
+.productbig{
+    width: 66%;
+    height: 100%;
+    border: 1px dashed black;
+    background-color: #1e90ff;
+}
+
+.productsmall{
+    width: 34%;
+    height: 100%;
+    border: 1px dashed black;
+    background-color: #ffc0cb;
+}
+
+/*Sezione right to left*/
+
+.section-rtol{
+    height: 400px;
+    width: 100%;
+    background-color: #eeee;
+    display: flex;
+    justify-content: center;
+}
+
+.rightoleft{
+    margin: 20px 20%;
+    width: 100%;
+    height: 360px;
+    background-color: #d3d3d3;
+    display: flex;
+    flex-direction: row-reverse;
+}
+/* /Sezione right to left */
+
+/* Sezione spazio grande */
+
+.sectionlarge{
+    height: 600px;
+    width: 100%;
+    background-color: #eeee;
+    display: flex;
+    justify-content: center;
+}
+
+.bigspace{
+    margin: 20px 20%;
+    height: 560px;
+    width: 100%;
+    background-color: green;
+}
+
+/* /Sezione spazio grande */
+
+/* Prima parte finale page */
+.footfirst{
+    height: 400px;
+    width: 100%;
+    background-color: #23272a;
+    display: flex;
+    justify-content: center;
+}
+
+.footitems{
+    width: 100%;
+    height: 360px;
+    margin: 10px 20% 30px;
+    display: flex;
+    background-color: #00008b;
+}
+
+.bigitem{
+    width: calc(100% / 3);
+    height: 100%;
+    background-color: #f08080;
+    border: 1px dashed black;
+
+}
+
+.smallitem{
+    width: calc(100% / 6);
+    height: 100%;
+    background-color: cadetblue;
+    border: 1px dashed white;
+}
+
+/* /Prima parte */
+
+/*Seconda parte finale page*/
+.footer {
+    width: 100%;
+    height: 90px;
+    background-color: #23272a;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pie{
+    margin: 10px 20% 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #a3d2fb;
+}
+
+
+
