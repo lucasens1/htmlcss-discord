@@ -18,6 +18,10 @@ body{
     color: black;
 }
 
+.btn-style-blue a{
+    text-decoration: none;
+}
+
 .btn-style-w{
     background-color: white;
     border-radius: 30px;
@@ -25,6 +29,13 @@ body{
 }
 .btn-style-b{
     background-color: black;
+    border-radius: 30px;
+    color: white;
+    padding: 8px;
+}
+
+.btn-style-blue{
+    background-color: #7289da;
     border-radius: 30px;
     color: white;
     padding: 8px;
@@ -161,6 +172,7 @@ body{
     margin-bottom: 1rem;
 }
 
+
 /*Sezione right to left*/
 
 .section-rtol{
@@ -189,16 +201,22 @@ body{
 
 .bigspace{
     margin: 20px 20%;
-    height: 560px;
     width: 100%;
-    background-color: green;
+    text-align: center;
 }
 
+.subtitle{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.bigspace a{
+    text-decoration: none;
+}
 /* /Sezione spazio grande */
 
 /* Prima parte finale page */
 .footfirst{
-    height: 400px;
     width: 100%;
     background-color: #23272a;
     display: flex;
