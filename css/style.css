@@ -128,29 +128,42 @@ body{
 .leftoright{
     margin: 20px 20%;
     width: 100%;
-    height: 360px;
-    background-color: chocolate;
     display: flex;
 }
 /* Creo classi universali riutilizzabili a seconda della direction del row */
 .productbig{
     width: 66%;
-    height: 100%;
-    border: 1px dashed black;
-    background-color: #1e90ff;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.productbig.picone{
+    background-image: url(../img/item1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.productbig.pictwo{
+    background-image: url(../img/item2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.productbig.picthree{
+    background-image: url(../img/item3.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .productsmall{
     width: 34%;
-    height: 100%;
-    border: 1px dashed black;
-    background-color: #ffc0cb;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 /*Sezione right to left*/
 
 .section-rtol{
-    height: 400px;
     width: 100%;
     background-color: #eeee;
     display: flex;
@@ -160,8 +173,6 @@ body{
 .rightoleft{
     margin: 20px 20%;
     width: 100%;
-    height: 360px;
-    background-color: #d3d3d3;
     display: flex;
     flex-direction: row-reverse;
 }
@@ -170,7 +181,6 @@ body{
 /* Sezione spazio grande */
 
 .sectionlarge{
-    height: 600px;
     width: 100%;
     background-color: #eeee;
     display: flex;
