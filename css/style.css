@@ -41,6 +41,10 @@ body{
     padding: 8px;
 }
 
+.pd-5{
+    padding: 5px;
+}
+
 .container{
     background-color: burlywood;
 }
@@ -129,7 +133,6 @@ body{
 /* Sezione Left to right */
 
 .section-ltor{
-    height: 400px;
     width: 100%;
     background-color: whitesmoke;
     display: flex;
@@ -141,6 +144,23 @@ body{
     width: 100%;
     display: flex;
 }
+/*Sezione right to left*/
+
+.section-rtol{
+    width: 100%;
+    background-color: #eeee;
+    display: flex;
+    justify-content: center;
+}
+
+.rightoleft{
+    margin: 20px 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+/* /Sezione right to left */
+
 /* Creo classi universali riutilizzabili a seconda della direction del row */
 .productbig{
     width: 66%;
@@ -173,22 +193,6 @@ body{
 }
 
 
-/*Sezione right to left*/
-
-.section-rtol{
-    width: 100%;
-    background-color: #eeee;
-    display: flex;
-    justify-content: center;
-}
-
-.rightoleft{
-    margin: 20px 20%;
-    width: 100%;
-    display: flex;
-    flex-direction: row-reverse;
-}
-/* /Sezione right to left */
 
 /* Sezione spazio grande */
 
@@ -246,6 +250,11 @@ body{
     font-size: 0.8rem;
 }
 
+.bigitem,
+.smallitem{
+    color: white;
+}
+
 .lang{
     width: 1.5rem;
     height: 1rem;
@@ -260,7 +269,7 @@ body{
 }
 
 .diffcolor{
-    color: #4a5b8e;
+    color: #7289da;
 }
 
 /* /Prima parte */
@@ -268,10 +277,26 @@ body{
 /*Seconda parte finale page*/
 .footer {
     width: 100%;
-    height: 90px;
     background-color: #23272a;
     display: flex;
     justify-content: space-around;
+}
+.subtitle.footitle{
+    color: #7289da;
+}
+
+.sociallinks{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.insidelinks{
+    text-decoration: none;
+    color: white;
+}
+.sociallinks * {
+    color: white;
+    text-decoration: inherit;
 }
 
 .pie{
