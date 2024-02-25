@@ -317,5 +317,12 @@ body{
     justify-content: space-between;
 }
 
+.bigspace h3{
+    padding: 10px;
+    background-image: url(../img/stars.svg);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
 
 
